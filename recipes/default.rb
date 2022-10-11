@@ -1,3 +1,4 @@
 file node['filepath'] do
-    action :delete
-  end
+  content node['content']
+  action :create
+end
